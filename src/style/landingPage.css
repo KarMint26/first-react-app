@@ -1,0 +1,116 @@
+body {
+  scroll-behavior: smooth !important;
+}
+
+.myBG {
+  height: 100vh;
+  background: url("../assets/bg/cinema.jpg");
+  background-size: cover;
+}
+
+.navbar-fixed {
+  background-color: transparent;
+  backdrop-filter: blur(30px);
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.intro {
+  height: 400px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  letter-spacing: 4px;
+}
+
+.superhero {
+  height: auto;
+  background: url("../assets/bg/dark.jpg");
+  background-size: cover;
+}
+
+.sci-fi {
+  height: auto;
+  background: url("../assets/bg/bg-scifi.jpg");
+  background-size: cover;
+}
+
+.movieImage {
+  height: auto;
+  background-color: black;
+  margin: 8px;
+  padding: 5px;
+}
+
+.images {
+  height: 480px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: #a70054;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  padding: 1.7rem;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#myBtn img {
+  width: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  background-color: #272727;
+  padding: 0.5rem;
+  padding-top: 0.8rem;
+}
+
+.footer h1 {
+  font-size: 1rem;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.footer h1 a {
+  text-decoration: none;
+  color: #008ea7;
+}
+
+.footer h1 a:last-child {
+  color: rgb(153, 0, 255);
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  #myBtn {
+    width: 50px;
+    height: 50px;
+    padding: 2rem;
+  }
+
+  #myBtn img {
+    width: 2rem;
+  }
+}
