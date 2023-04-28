@@ -6,6 +6,7 @@ body {
   height: 100vh;
   background: url("../assets/bg/cinema.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .navbar-fixed {
