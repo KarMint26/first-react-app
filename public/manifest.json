@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Movie React App",
+  "name": "Create Movie React App With Bootstrap",
   "icons": [
     {
       "src": "clapperboard.png",
